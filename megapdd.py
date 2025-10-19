@@ -51,7 +51,3 @@ class Megapdd():
             return await req.json()
 
 
-async def main():
-    client = Megapdd()
-    print(await client.get_questions(1, 3))
-run(main())
