@@ -1,5 +1,5 @@
 from aiohttp import ClientSession
-from asyncio import get_event_loop, new_event_loop, run
+from asyncio import get_event_loop, new_event_loop
 
 
 class Megapdd():
